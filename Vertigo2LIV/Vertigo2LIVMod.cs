@@ -142,7 +142,7 @@ namespace Vertigo2LIV {
             livInstance.HMDCamera = camera;
             livInstance.MRCameraPrefab = cameraFromPrefab;
             livInstance.stage = cameraParent;
-            livInstance.fixPostEffectsAlpha = true; //Vertigo Remastered, doesn't seem to impact anything.
+            livInstance.fixPostEffectsAlpha = false; //Vertigo Remastered mod had this set to true
             livInstance.spectatorLayerMask = ~0;
             livInstance.spectatorLayerMask &= ~(1 << (int)GameLayer.IgnoreRaycast); //Some lighting
             livInstance.spectatorLayerMask &= ~(1 << (int)GameLayer.Character); //Eyes
