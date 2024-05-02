@@ -6,7 +6,7 @@ Vertigo 2 already has older LIV integration (which somewhat worked in the demo),
 Please be aware that if you stop using the mod you should remove the ExternalCamera.cfg file from Vertigo 2 game folder or it may have issues being playable.
 
 # Installation and use
-- Download MelonLoader Installer and install 0.5.7 in Vertigo Remastered folder.
+- Download MelonLoader Installer and install 0.5.7 in Vertigo 2 folder.
 - From the [Vertigo2LIV release zip](https://github.com/Jas2o/Vertigo2LIV/releases), extract the folder Mods into Vertigo 2 folder.
 - Browse to Steam\steamapps\common\Vertigo 2\vertigo2_Data\Plugins\x86_64
     - **Rename LIV_MR.dll to something like LIV_MR.dll.disabled** (or you could move/delete it).
